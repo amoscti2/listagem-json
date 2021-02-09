@@ -1,5 +1,5 @@
 <?php 
     require 'header.html';
-    require 'content.php';
+    require 'list.php';
     require 'footer.html';
 ?>    
