@@ -1,0 +1,22 @@
+{
+    "list" : [
+        {
+            "id":"1", 
+            "name":"Roberto",
+            "cargo":"Programador",
+            "sexo":"Masculino"
+        },
+        {
+            "id":"2", 
+            "name":"Bruno",
+            "cargo":"Engenheiro",
+            "sexo":"Masculino"
+        },
+        {
+            "id":"3", 
+            "name":"Carla",
+            "cargo":"Médica",
+            "sexo":"Feminino"
+        }
+    ]    
+}
