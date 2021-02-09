@@ -1,11 +1,8 @@
 <h3 class="mt-4 mb-4">Welcome, human!</h3>
 
 <?php 
-
     $str = file_get_contents('data.json');
-
     $json = json_decode($str, true); // decode the JSON into an associative array
-
     // echo '<pre>' . print_r($json, true) . '</pre>';
 ?>
 
@@ -28,7 +25,11 @@
                 <td>'.$value['name'].'</td>
                 <td>'.$value['cargo'].'</td>
                 <td>'.$value['sexo'].'</td>
-                <td><button class="btn btn-primary" >Editar</button></td>
+                <td>
+                    <a href="edit.php?id='.$value['id'].'">
+                        <button class="btn btn-primary">Editar</button>
+                    </a>
+                </td>
             </tr>';
         }
     ?>
